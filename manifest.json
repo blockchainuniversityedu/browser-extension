@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Website Post Notifier",
+    "version": "1.0",
+    "description": "Notifies users when posts are detected on a website",
+    "permissions": ["notifications"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "48": "icon.png"
+    }
+}
